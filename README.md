@@ -1,6 +1,6 @@
 # yak-shaver.com
 
-This repository contains a simple Next.js site that is exported as a static site and deployed to GitHub Pages via GitHub Actions.
+This repository contains a simple static site built with Vite, React and TypeScript. The site is deployed to GitHub Pages using GitHub Actions.
 
 ## Local development
 
@@ -15,8 +15,8 @@ npm run dev
 npm run build
 ```
 
-The static output will be in the `out/` directory.
+The static output will be in the `dist/` directory.
 
 ## Deployment
 
-GitHub Actions will build and publish the `out/` directory to the `gh-pages` branch, which is used by GitHub Pages.
+GitHub Actions will build and publish the `dist/` directory to the `gh-pages` branch, which is used by GitHub Pages.
