@@ -1,6 +1,6 @@
 # yak-shaver.com
 
-This repository contains a simple static site built with Vite, React and TypeScript. The site is deployed to GitHub Pages using GitHub Actions.
+This repository contains a simple static site built with Vite, React and TypeScript. The site features an interactive terminal powered by the open source **react-console-emulator** library. The static output is deployed to GitHub Pages using GitHub Actions.
 
 ## Local development
 

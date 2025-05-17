@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: monospace;
+}
+
+.terminal-container {
+  background-color: #000;
+  color: #0f0;
+  padding: 1rem;
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.terminal-output {
+  white-space: pre-wrap;
+  margin-bottom: 0.5rem;
+}
+
+.terminal-line {
+  margin-bottom: 0.25rem;
+}
+
+.terminal-response {
+  margin-left: 1rem;
+}
+
+.terminal-input-line {
+  display: flex;
+}
+
+.terminal-input {
+  background: transparent;
+  border: none;
+  color: #0f0;
+  outline: none;
+  flex: 1;
+}
+
+.terminal-prompt {
+  margin-right: 0.5rem;
+}
