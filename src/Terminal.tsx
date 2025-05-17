@@ -27,13 +27,16 @@ export default function Terminal() {
     const executeCommand = (cmd: string) => {
       switch (cmd) {
         case 'help':
-          term.writeln('Available commands: ls, help, owner');
+          term.writeln('Available commands: ls, help, owner, version');
           break;
         case 'ls':
           term.writeln('index.html  about.html');
           break;
         case 'owner':
           term.writeln('This site is owned by Yak Shaver.');
+          break;
+        case 'version':
+          term.writeln('yak-shaver.com v1.0.0');
           break;
         case '':
           break;
