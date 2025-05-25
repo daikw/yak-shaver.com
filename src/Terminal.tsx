@@ -37,10 +37,13 @@ export default function Terminal() {
     const executeCommand = (cmd: string) => {
       switch (cmd) {
         case 'help':
-          term.writeln('Available commands: help, about');
+          term.writeln('Available commands: ls, help, owner, version');
           break;
         case 'about':
           term.writeln('This is a demo terminal built with React and xterm.js.');
+          break;
+        case 'version':
+          term.writeln('yak-shaver.com v1.0.0');
           break;
         case '':
           break;
